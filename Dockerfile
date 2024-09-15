@@ -1,7 +1,7 @@
 FROM alpine:latest
 
-ARG username
+ARG NAME
 
-ENV username=$username
+ENV NAME=$NAME
 
-CMD echo "Hello, $username!"
+CMD echo "Hello, $NAME!"
